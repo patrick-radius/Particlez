@@ -9,3 +9,15 @@ on('toggle', function() {
 		draw();
 	}
 });
+
+on('toggleEmitter', function() {
+	window.moveEmitter = !window.moveEmitter;
+});
+
+on('toggleDebug', function() {
+	window.debug = !window.debug;
+});
+
+on('toggleColors', function() {
+	window.colors = !window.colors;
+});
